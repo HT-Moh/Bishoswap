@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:sumoswap-core"
+    - path: "./test"
+      component: "test:sumoswap-tests"
+    - path: "./audit"
+      component: "test:tweag-audit"
